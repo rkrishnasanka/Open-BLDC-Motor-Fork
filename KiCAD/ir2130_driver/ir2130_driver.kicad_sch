@@ -1570,7 +1570,7 @@
     (uuid 11675638-8398-443c-9cc4-596eff2ee906)
     (property "Reference" "J1" (id 0) (at 38.1 58.5302 0))
     (property "Value" "Power Input" (id 1) (at 38.1 61.0671 0))
-    (property "Footprint" "Connector:Banana_Jack_2Pin" (id 2) (at 38.1 66.04 0)
+    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (id 2) (at 38.1 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 38.1 66.04 0)
@@ -1691,7 +1691,7 @@
     (uuid 33b3b8c2-513d-40d4-ab04-6a367d51800d)
     (property "Reference" "J3" (id 0) (at 38.1 113.1402 0))
     (property "Value" "Motor Output" (id 1) (at 38.1 115.6771 0))
-    (property "Footprint" "Connector:Banana_Jack_3Pin" (id 2) (at 38.1 120.65 0)
+    (property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" (id 2) (at 38.1 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 38.1 120.65 0)
@@ -2242,13 +2242,13 @@
       (reference "D3") (unit 1) (value "1N4148") (footprint "Diode_THT:D_5W_P10.16mm_Horizontal")
     )
     (path "/11675638-8398-443c-9cc4-596eff2ee906"
-      (reference "J1") (unit 1) (value "Power Input") (footprint "Connector:Banana_Jack_2Pin")
+      (reference "J1") (unit 1) (value "Power Input") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
     )
     (path "/c52f6ce8-555a-42c7-a48b-4d6724c1e678"
       (reference "J2") (unit 1) (value "Input") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical")
     )
     (path "/33b3b8c2-513d-40d4-ab04-6a367d51800d"
-      (reference "J3") (unit 1) (value "Motor Output") (footprint "Connector:Banana_Jack_3Pin")
+      (reference "J3") (unit 1) (value "Motor Output") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm")
     )
     (path "/35d7a10e-09aa-4e19-80b9-d819f7adc131"
       (reference "Q1") (unit 1) (value "IRFZ 24N") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")

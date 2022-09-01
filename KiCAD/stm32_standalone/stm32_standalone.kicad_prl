@@ -62,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "80010f0_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "ir2130_driver.kicad_prl",
+    "filename": "stm32_standalone.kicad_prl",
     "version": 3
   },
   "project": {

@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "IR2130")(type "Legacy")(uri "${KIPRJMOD}/Additional_Components/IR2130.lib")(options "")(descr ""))
+  (lib (name "tmc6140-trinamic")(type "KiCad")(uri "${KIPRJMOD}/Additional_Components/tmc6140-trinamic.kicad_sym")(options "")(descr ""))
 )
