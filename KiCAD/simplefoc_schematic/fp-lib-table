@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "Additional_Components")(type "KiCad")(uri "${KIPRJMOD}/Additional_Components")(options "")(descr ""))
+  (lib (name "Connector_JST")(type "KiCad")(uri "${KIPRJMOD}/Additional_Components/Connector_JST.pretty")(options "")(descr ""))
 )
