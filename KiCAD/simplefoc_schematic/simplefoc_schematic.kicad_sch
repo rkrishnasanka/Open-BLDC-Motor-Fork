@@ -3298,7 +3298,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 160.02 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 06166001-b06f-403d-8b44-3d5438f7b61c)
-    (property "Reference" "TP?" (id 0) (at 161.417 210.4933 0)
+    (property "Reference" "TP7" (id 0) (at 161.417 210.4933 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (id 1) (at 161.417 213.0302 0)
@@ -3696,7 +3696,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 146.05 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3019c608-0d77-49cc-9c3f-99fc2de14958)
-    (property "Reference" "TP?" (id 0) (at 147.447 210.4933 0)
+    (property "Reference" "TP3" (id 0) (at 147.447 210.4933 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (id 1) (at 147.447 213.0302 0)
@@ -3784,7 +3784,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 185.42 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 366ba791-2b9f-4771-8751-9001ebd2b43e)
-    (property "Reference" "TP?" (id 0) (at 186.817 210.4933 0)
+    (property "Reference" "TP9" (id 0) (at 186.817 210.4933 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (id 1) (at 186.817 213.0302 0)
@@ -4622,7 +4622,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 172.72 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b1d9a51c-b366-4be0-b1da-3925c052c783)
-    (property "Reference" "TP?" (id 0) (at 174.117 210.4933 0)
+    (property "Reference" "TP8" (id 0) (at 174.117 210.4933 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (id 1) (at 174.117 213.0302 0)
@@ -5676,6 +5676,9 @@
     (path "/abd4da85-79b3-4f3b-a67e-937ba041b249"
       (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
     )
+    (path "/3019c608-0d77-49cc-9c3f-99fc2de14958"
+      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/d53a2018-3628-433f-89b8-76ef79b0d900"
       (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
     )
@@ -5686,16 +5689,13 @@
       (reference "TP6") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
     )
     (path "/06166001-b06f-403d-8b44-3d5438f7b61c"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/3019c608-0d77-49cc-9c3f-99fc2de14958"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/366ba791-2b9f-4771-8751-9001ebd2b43e"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP7") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/b1d9a51c-b366-4be0-b1da-3925c052c783"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP8") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/366ba791-2b9f-4771-8751-9001ebd2b43e"
+      (reference "TP9") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/4130870a-0c86-40cf-99a0-88504ab08dfb"
       (reference "U1") (unit 1) (value "MC7805CDTG") (footprint "Package_TO_SOT_SMD:TO-252-2")
